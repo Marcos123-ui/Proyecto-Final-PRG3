@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reporte de prueba - Listado de Datos del sistema</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Reporte de prueba - Listado de Datos del sistema</h2>
+                <p class='attribute'><strong>Start Time: </strong>2025-08-12 14:38:19</p>
+                <p class='attribute'><strong>Duration: </strong>2.99 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.H1_inicio_index_test</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_inicio_index</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Error al abrir index.php: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: MicrosoftEdge=139.0.3405.86)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff754d88c55+23461]
+	(No symbol) [0x0x7ff754cdcd40]
+	GetHandleVerifier [0x0x7ff755000b88+2611928]
+	(No symbol) [0x0x7ff754aaa250]
+	(No symbol) [0x0x7ff754a9e4ff]
+	(No symbol) [0x0x7ff754a9fb66]
+	(No symbol) [0x0x7ff754a9e769]
+	(No symbol) [0x0x7ff754a9e36c]
+	(No symbol) [0x0x7ff754a9e0b8]
+	(No symbol) [0x0x7ff754a9c0b9]
+	(No symbol) [0x0x7ff754a9c68c]
+	(No symbol) [0x0x7ff754ab057a]
+	(No symbol) [0x0x7ff754b37ade]
+	(No symbol) [0x0x7ff754b1a6ba]
+	(No symbol) [0x0x7ff754aef58d]
+	(No symbol) [0x0x7ff754b3754f]
+	(No symbol) [0x0x7ff754b1a423]
+	(No symbol) [0x0x7ff754aeea86]
+	(No symbol) [0x0x7ff754aedd11]
+	(No symbol) [0x0x7ff754aee8b3]
+	(No symbol) [0x0x7ff754bee6fd]
+	(No symbol) [0x0x7ff754bfba88]
+	GetHandleVerifier [0x0x7ff754e68a9b+940523]
+	GetHandleVerifier [0x0x7ff754e717f1+976705]
+	(No symbol) [0x0x7ff754cea931]
+	(No symbol) [0x0x7ff754ce3314]
+	(No symbol) [0x0x7ff754ce3463]
+	(No symbol) [0x0x7ff754cd4f06]
+	BaseThreadInitThunk [0x0x7ffa604be8d7+23]
+	RtlUserThreadStart [0x0x7ffa60adc34c+44]
+
+</p><p style="color:maroon;">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: MicrosoftEdge=139.0.3405.86)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff754d88c55+23461]
+	(No symbol) [0x0x7ff754cdcd40]
+	GetHandleVerifier [0x0x7ff755000b88+2611928]
+	(No symbol) [0x0x7ff754aaa250]
+	(No symbol) [0x0x7ff754a9e4ff]
+	(No symbol) [0x0x7ff754a9fb66]
+	(No symbol) [0x0x7ff754a9e769]
+	(No symbol) [0x0x7ff754a9e36c]
+	(No symbol) [0x0x7ff754a9e0b8]
+	(No symbol) [0x0x7ff754a9c0b9]
+	(No symbol) [0x0x7ff754a9c68c]
+	(No symbol) [0x0x7ff754ab057a]
+	(No symbol) [0x0x7ff754b37ade]
+	(No symbol) [0x0x7ff754b1a6ba]
+	(No symbol) [0x0x7ff754aef58d]
+	(No symbol) [0x0x7ff754b3754f]
+	(No symbol) [0x0x7ff754b1a423]
+	(No symbol) [0x0x7ff754aeea86]
+	(No symbol) [0x0x7ff754aedd11]
+	(No symbol) [0x0x7ff754aee8b3]
+	(No symbol) [0x0x7ff754bee6fd]
+	(No symbol) [0x0x7ff754bfba88]
+	GetHandleVerifier [0x0x7ff754e68a9b+940523]
+	GetHandleVerifier [0x0x7ff754e717f1+976705]
+	(No symbol) [0x0x7ff754cea931]
+	(No symbol) [0x0x7ff754ce3314]
+	(No symbol) [0x0x7ff754ce3463]
+	(No symbol) [0x0x7ff754cd4f06]
+	BaseThreadInitThunk [0x0x7ffa604be8d7+23]
+	RtlUserThreadStart [0x0x7ffa60adc34c+44]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:\Users\20231150\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\Desktop\ProyF_Prg3_Pruebas_SELENIUM\H4_listadoDdatRes_test.py", line 43, in test_inicio_index
+    raise e
+  File "c:\Users\20231150\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\Desktop\ProyF_Prg3_Pruebas_SELENIUM\H4_listadoDdatRes_test.py", line 28, in test_inicio_index
+    self.driver.get("http://localhost:8001/listadeVis.php")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20231150\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 479, in get
+    self.execute(Command.GET, {"url": url})
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20231150\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\20231150\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: MicrosoftEdge=139.0.3405.86)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff754d88c55+23461]
+	(No symbol) [0x0x7ff754cdcd40]
+	GetHandleVerifier [0x0x7ff755000b88+2611928]
+	(No symbol) [0x0x7ff754aaa250]
+	(No symbol) [0x0x7ff754a9e4ff]
+	(No symbol) [0x0x7ff754a9fb66]
+	(No symbol) [0x0x7ff754a9e769]
+	(No symbol) [0x0x7ff754a9e36c]
+	(No symbol) [0x0x7ff754a9e0b8]
+	(No symbol) [0x0x7ff754a9c0b9]
+	(No symbol) [0x0x7ff754a9c68c]
+	(No symbol) [0x0x7ff754ab057a]
+	(No symbol) [0x0x7ff754b37ade]
+	(No symbol) [0x0x7ff754b1a6ba]
+	(No symbol) [0x0x7ff754aef58d]
+	(No symbol) [0x0x7ff754b3754f]
+	(No symbol) [0x0x7ff754b1a423]
+	(No symbol) [0x0x7ff754aeea86]
+	(No symbol) [0x0x7ff754aedd11]
+	(No symbol) [0x0x7ff754aee8b3]
+	(No symbol) [0x0x7ff754bee6fd]
+	(No symbol) [0x0x7ff754bfba88]
+	GetHandleVerifier [0x0x7ff754e68a9b+940523]
+	GetHandleVerifier [0x0x7ff754e717f1+976705]
+	(No symbol) [0x0x7ff754cea931]
+	(No symbol) [0x0x7ff754ce3314]
+	(No symbol) [0x0x7ff754ce3463]
+	(No symbol) [0x0x7ff754cd4f06]
+	BaseThreadInitThunk [0x0x7ffa604be8d7+23]
+	RtlUserThreadStart [0x0x7ffa60adc34c+44]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 2.99 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

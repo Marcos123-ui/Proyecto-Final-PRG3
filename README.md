@@ -66,5 +66,4 @@ Este repositorio incluye:
 - ✔️ Repositorio actualizado y accesible
 
 ---
-
-> 💡 *Este README fue diseñado para proporcionar una vista clara y profesional del proyecto de automatización del registro de visitas. ¡Puedes personalizarlo como desees!*
+fue agregado para tener una vista clara de lo que se uso en el proyecto 

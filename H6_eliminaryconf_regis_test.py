@@ -11,7 +11,7 @@ class H6_eliminaryconf_regis_test(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver_path = r"C:\Driver\msedgedriver.exe"
+        cls.driver_path = r"C:\Users\20231150\Downloads\edgedriver_win64\msedgedriver.exe"
         cls.service = EdgeService(executable_path=cls.driver_path)
         cls.driver = webdriver.Edge(service=cls.service)
         cls.driver.maximize_window()

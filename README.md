@@ -15,7 +15,7 @@ Automatizar los **escenarios** de registro de visitas, asegurando que la platafo
 ---
 
 ## 📋 Historias de Usuario
-Se documentaron y gestionaron **historias de usuario** en **Azure DevOps**, incluyendo:
+Se documentaron y gestionaron **historias de usuario** en **Jira**, incluyendo:
 
 - ✅ *Criterios de aceptación*
 - ❌ *Criterios de rechazo*
